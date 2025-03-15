@@ -1,0 +1,16 @@
+{
+  "name": "@verde/react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vite-plugin-dts": "^4.5.3",
+    "vitest": "^3.0.8"
+  }
+}

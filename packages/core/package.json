@@ -1,0 +1,23 @@
+{
+  "name": "@verde/core",
+  "version": "0.0.1",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vite-plugin-dts": "^4.5.3",
+    "vitest": "^3.0.8",
+    "@verde/core": "workspace:*"
+  }
+}
